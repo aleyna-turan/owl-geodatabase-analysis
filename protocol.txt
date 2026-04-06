@@ -1,0 +1,53 @@
+GEODATABASE PROJECT PROTOCOL
+============================
+
+Topic: Occurrence database of Strigiformes (Owls) from Turkey
+
+REGION AND TAXON SELECTION
+--------------------------
+I chose Turkey as my study region because it is a biogeographically important country located at the crossroads of Europe and Asia, featuring diverse habitats from coastal areas to mountains and plains. This diversity makes it an interesting area for studying owl distribution patterns.
+
+I selected Strigiformes (owls) as my taxon because owls are ecologically important predators and indicator species for ecosystem health. Turkey hosts 10 different owl species, providing sufficient diversity for meaningful analysis.
+
+GBIF DATA FILTERS
+-----------------
+- Taxon: Strigiformes
+- Country: Turkey
+- Years: 2020-2026
+- Coordinate availability: Yes (100%)
+- Total occurrences: 11,890 records
+- Number of species: 10
+- Download format: Simple CSV
+
+COLUMNS RETAINED IN SIMPLIFIED CSV
+----------------------------------
+gbifID, family, genus, species, verbatimScientificName, countryCode, locality, stateProvince, individualCount, decimalLatitude, decimalLongitude, month, year
+
+NATURAL EARTH LAYERS USED
+-------------------------
+1. Populated Places (points) - 83 Turkish cities - for analyzing owl proximity to urban areas
+2. Rivers (lines) - 15 Turkish rivers - for analyzing owl proximity to water sources
+3. Lakes (polygons) - 7 Turkish lakes - for additional water body analysis
+4. Countries (polygons) - Turkey boundary - for spatial filtering and area calculations
+
+DATABASE PURPOSE AND USERS
+--------------------------
+This database is designed for:
+
+1. Wildlife researchers and ornithologists - studying owl populations and habitat preferences in Turkey
+2. Conservation organizations - identifying important owl habitats that need protection
+3. Environmental agencies - planning protected areas and assessing environmental impact of development
+4. University students - for ecological research and academic studies
+
+The database can be used to:
+- Analyze which owl species prefer areas near rivers, lakes, or away from cities
+- Identify owl hotspots and areas of high species diversity
+- Track seasonal and yearly patterns in owl observations
+- Support conservation planning by understanding habitat requirements
+
+KEY FINDINGS
+------------
+- Most common species: Athene noctua (Little Owl) with 5,994 occurrences
+- 10 owl species recorded in Turkey
+- Owls found both near urban areas and natural habitats
+- Multiple species observed near major rivers like Kızılırmak
